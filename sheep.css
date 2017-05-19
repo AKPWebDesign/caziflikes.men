@@ -1,0 +1,197 @@
+.sheep {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sheep-white.baby {
+    width: 128px;
+    height: 138px;
+    background-position: -8px -8px;
+}
+
+.sheep-black {
+    width: 128px;
+    height: 149px;
+    background-position: -152px -8px;
+}
+
+.sheep-blue {
+    width: 128px;
+    height: 149px;
+    background-position: -296px -8px;
+}
+
+.sheep-brown {
+    width: 128px;
+    height: 149px;
+    background-position: -440px -8px;
+}
+
+.sheep-cyan {
+    width: 128px;
+    height: 149px;
+    background-position: -584px -8px;
+}
+
+.sheep-gray {
+    width: 128px;
+    height: 149px;
+    background-position: -8px -173px;
+}
+
+.sheep-green {
+    width: 128px;
+    height: 149px;
+    background-position: -152px -173px;
+}
+
+.sheep-light-blue {
+    width: 128px;
+    height: 149px;
+    background-position: -296px -173px;
+}
+
+.sheep-light-gray {
+    width: 128px;
+    height: 149px;
+    background-position: -440px -173px;
+}
+
+.sheep-lime {
+    width: 128px;
+    height: 149px;
+    background-position: -584px -173px;
+}
+
+.sheep-magenta {
+    width: 128px;
+    height: 149px;
+    background-position: -8px -338px;
+}
+
+.sheep-orange {
+    width: 128px;
+    height: 149px;
+    background-position: -152px -338px;
+}
+
+.sheep-pink {
+    width: 128px;
+    height: 149px;
+    background-position: -296px -338px;
+}
+
+.sheep-black.baby {
+    width: 128px;
+    height: 135px;
+    background-position: -440px -338px;
+}
+
+.sheep-blue.baby {
+    width: 128px;
+    height: 135px;
+    background-position: -584px -338px;
+}
+
+.sheep-brown.baby {
+    width: 128px;
+    height: 135px;
+    background-position: -440px -489px;
+}
+
+.sheep-cyan.baby {
+    width: 128px;
+    height: 135px;
+    background-position: -584px -489px;
+}
+
+.sheep-green.baby {
+    width: 128px;
+    height: 135px;
+    background-position: -8px -640px;
+}
+
+.sheep-grey.baby {
+    width: 128px;
+    height: 135px;
+    background-position: -152px -640px;
+}
+
+.sheep-light-blue.baby {
+    width: 128px;
+    height: 135px;
+    background-position: -296px -640px;
+}
+
+.sheep-lime.baby {
+    width: 128px;
+    height: 135px;
+    background-position: -440px -640px;
+}
+
+.sheep-magenta.baby {
+    width: 128px;
+    height: 135px;
+    background-position: -584px -640px;
+}
+
+.sheep-orange.baby {
+    width: 128px;
+    height: 135px;
+    background-position: -728px -8px;
+}
+
+.sheep-pink.baby {
+    width: 128px;
+    height: 135px;
+    background-position: -728px -159px;
+}
+
+.sheep-purple.baby {
+    width: 128px;
+    height: 135px;
+    background-position: -728px -310px;
+}
+
+.sheep-red.baby {
+    width: 128px;
+    height: 135px;
+    background-position: -728px -461px;
+}
+
+.sheep-light-gray.baby {
+    width: 128px;
+    height: 135px;
+    background-position: -728px -612px;
+}
+
+.sheep-yellow.baby {
+    width: 128px;
+    height: 135px;
+    background-position: -728px -763px;
+}
+
+.sheep-purple {
+    width: 128px;
+    height: 149px;
+    background-position: -872px -8px;
+}
+
+.sheep-red {
+    width: 128px;
+    height: 149px;
+    background-position: -872px -173px;
+}
+
+.sheep-white {
+    width: 128px;
+    height: 149px;
+    background-position: -872px -338px;
+}
+
+.sheep-yellow {
+    width: 128px;
+    height: 149px;
+    background-position: -872px -503px;
+}
