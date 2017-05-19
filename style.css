@@ -1,198 +1,201 @@
 @font-face {
-	font-family: "Minecraft";
-	font-style: normal;
-	font-weight: 400;
-	src: url("../minecraft_font.eot") format("eot"),
-	     url("../minecraft_font.woff") format("woff"),
-	     url("../minecraft_font.ttf") format("truetype"),
-	     url("../minecraft_font.svg#Minecraft") format("svg");
+  font-family: "Minecraft";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../minecraft_font.eot") format("eot"), url("../minecraft_font.woff") format("woff"), url("../minecraft_font.ttf") format("truetype"), url("../minecraft_font.svg#Minecraft") format("svg");
 }
 
 .mc-black, .mc-amp0 {
-	color: #000000;
-	text-shadow: 1px 1px 0 #000000;
+  color: #000000;
+  text-shadow: 1px 1px 0 #000000;
 }
 
 .mc-dark-blue, .mc-amp1 {
-	color: #0000AA;
-	text-shadow: 1px 1px 0 #00002A;
+  color: #0000AA;
+  text-shadow: 1px 1px 0 #00002A;
 }
 
 .mc-dark-green, .mc-amp2 {
-	color: #00AA00;
-	text-shadow: 1px 1px 0 #002A00;
+  color: #00AA00;
+  text-shadow: 1px 1px 0 #002A00;
 }
 
 .mc-dark-aqua, .mc-amp3 {
-	color: #00AAAA;
-	text-shadow: 1px 1px 0 #002A2A;
+  color: #00AAAA;
+  text-shadow: 1px 1px 0 #002A2A;
 }
 
 .mc-dark-red, .mc-amp4 {
-	color: #AA0000;
-	text-shadow: 1px 1px 0 #2A0000;
+  color: #AA0000;
+  text-shadow: 1px 1px 0 #2A0000;
 }
 
 .mc-dark-purple, .mc-amp5 {
-	color: #AA00AA;
-	text-shadow: 1px 1px 0 #2A002A;
+  color: #AA00AA;
+  text-shadow: 1px 1px 0 #2A002A;
 }
 
 .mc-gold, .mc-amp6 {
-	color: #FFAA00;
-	text-shadow: 1px 1px 0 #2A2A00;
+  color: #FFAA00;
+  text-shadow: 1px 1px 0 #2A2A00;
 }
 
 .mc-gray, .mc-amp7 {
-	color: #AAAAAA;
-	text-shadow: 1px 1px 0 #2A2A2A;
+  color: #AAAAAA;
+  text-shadow: 1px 1px 0 #2A2A2A;
 }
 
 .mc-dark-gray, .mc-amp8 {
-	color: #555555;
-	text-shadow: 1px 1px 0 #151515;
+  color: #555555;
+  text-shadow: 1px 1px 0 #151515;
 }
 
 .mc-blue, .mc-amp9 {
-	color: #5555FF;
-	text-shadow: 1px 1px 0 #15153F;
+  color: #5555FF;
+  text-shadow: 1px 1px 0 #15153F;
 }
 
 .mc-green, .mc-ampa {
-	color: #55FF55;
-	text-shadow: 1px 1px 0 #153F15;
+  color: #55FF55;
+  text-shadow: 1px 1px 0 #153F15;
 }
 
 .mc-aqua, .mc-ampb {
-	color: #55FFFF;
-	text-shadow: 1px 1px 0 #153F3F;
+  color: #55FFFF;
+  text-shadow: 1px 1px 0 #153F3F;
 }
 
 .mc-red, .mc-ampc {
-	color: #FF5555;
-	text-shadow: 1px 1px 0 #3F1515;
+  color: #FF5555;
+  text-shadow: 1px 1px 0 #3F1515;
 }
 
 .mc-light-purple, .mc-ampd {
-	color: #FF55FF;
-	text-shadow: 1px 1px 0 #3F153F;
+  color: #FF55FF;
+  text-shadow: 1px 1px 0 #3F153F;
 }
 
 .mc-yellow, .mc-ampe {
-	color: #FFFF55;
-	text-shadow: 1px 1px 0 #3F3F15;
+  color: #FFFF55;
+  text-shadow: 1px 1px 0 #3F3F15;
 }
 
 .mc-white, .mc-ampf {
-	color: #FFFFFF;
-	text-shadow: 1px 1px 0 #3F3F3F;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 0 #3F3F3F;
 }
 
 html, body {
-	margin: 0;
-	padding: 0;
-	height: 100%;
-	width: 100%;
-	overflow: hidden;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
 body {
-	font-family: "Minecraft", monospace;
-	background: url('redstone_ore.png');
-	image-rendering: pixelated;
-	background-size: 128px;
+  font-family: "Minecraft", monospace;
+  background: url('redstone_ore.png');
+  image-rendering: pixelated;
+  background-size: 128px;
 }
 
 ::-moz-selection {
-    background: #fcb3ef;
-    text-shadow: none;
+  background: #fcb3ef;
+  text-shadow: none;
 }
 
 ::selection {
-    background: #fcb3ef;
-    text-shadow: none;
+  background: #fcb3ef;
+  text-shadow: none;
 }
 
 .container {
-	position: relative;
-	height: 100%;
-	width: 100%;
+  position: relative;
+  height: 100%;
+  width: 100%;
 }
 
 .sign {
-	height: 288px;
-	width: 576px;
-	position: absolute;
-	background: url('sign.png');
-	background-position: center;
-	background-size: cover;
-	image-rendering: pixelated;
-	cursor: pointer !important;
-	user-select: none;
+  height: 288px;
+  width: 576px;
+  position: absolute;
+  background: url('sign.png');
+  background-position: center;
+  background-size: cover;
+  image-rendering: pixelated;
+  cursor: pointer !important;
+  user-select: none;
 }
 
 .sign div p {
-	margin: 0;
-	padding: 0;
-	line-height: 64px;
-	font-size: 54px;
-	text-align: center;
+  margin: 0;
+  padding: 0;
+  line-height: 64px;
+  font-size: 54px;
+  text-align: center;
 }
 
 .sign div p:first-child {
-	margin-top: 8px;
+  margin-top: 8px;
 }
 
 .hidden {
-	visibility: hidden !important;
-	opacity: 0 !important;
-	transition: visibility 0s, opacity 0s linear !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  transition: visibility 0s, opacity 0s linear !important;
 }
+
 
 /* entire container, keeps perspective */
 .flip-container {
-	perspective: 1000px;
-	position: absolute;
+  perspective: 1000px;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
+
 /* flip the pane when flip class is applied */
 .flipper.flip {
-	transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
+
 
 /* flip speed goes here */
 .flipper {
-	transition: 0.6s;
-	transform-style: preserve-3d;
-	position: relative;
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
 }
+
 
 /* hide back of pane during swap */
 .front, .back {
-	backface-visibility: hidden;
+  backface-visibility: hidden;
 }
+
 
 /* front pane, placed above back */
 .front {
-	z-index: 2;
-	/* for firefox 31 */
-	transform: rotateY(0deg);
+  z-index: 2;
+  /* for firefox 31 */
+  transform: rotateY(0deg);
 }
+
 
 /* back, initially hidden pane */
 .back {
-	transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .front, .back {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .bottom-right * {
@@ -215,26 +218,56 @@ body {
   position: fixed;
   bottom: 1em;
   right: 1em;
-	visibility: visible;
+  visibility: visible;
   opacity: 1;
   transition: visibility 0.5s, opacity 0.5s linear;
 }
 
 .mc-rainbow {
-	animation: text-color 15s infinite;
+  animation: text-color 15s infinite;
 }
 
 @keyframes text-color {
-	0% { color: #000000; text-shadow: 1px 1px 0 #000000; }
-	12% { color: #FF5555; text-shadow: 1px 1px 0 #3F1515; }
-	25% { color: #FFAA00;	text-shadow: 1px 1px 0 #2A2A00; }
-	35% { color: #FFFF55;	text-shadow: 1px 1px 0 #3F3F15; }
-	48% { color: #55FF55;	text-shadow: 1px 1px 0 #153F15; }
-	60% { color: #5555FF;	text-shadow: 1px 1px 0 #15153F; }
-	70% { color: #FF55FF;	text-shadow: 1px 1px 0 #3F153F; }
-	80% { color: #AA00AA;	text-shadow: 1px 1px 0 #2A002A; }
-	94% { color: #FFFFFF;	text-shadow: 1px 1px 0 #3F3F3F; }
-	100% { color: #000000; text-shadow: 1px 1px 0 #000000; }
+  0% {
+    color: #000000;
+    text-shadow: 1px 1px 0 #000000;
+  }
+  12% {
+    color: #FF5555;
+    text-shadow: 1px 1px 0 #3F1515;
+  }
+  25% {
+    color: #FFAA00;
+    text-shadow: 1px 1px 0 #2A2A00;
+  }
+  35% {
+    color: #FFFF55;
+    text-shadow: 1px 1px 0 #3F3F15;
+  }
+  48% {
+    color: #55FF55;
+    text-shadow: 1px 1px 0 #153F15;
+  }
+  60% {
+    color: #5555FF;
+    text-shadow: 1px 1px 0 #15153F;
+  }
+  70% {
+    color: #FF55FF;
+    text-shadow: 1px 1px 0 #3F153F;
+  }
+  80% {
+    color: #AA00AA;
+    text-shadow: 1px 1px 0 #2A002A;
+  }
+  94% {
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0 #3F3F3F;
+  }
+  100% {
+    color: #000000;
+    text-shadow: 1px 1px 0 #000000;
+  }
 }
 
 @media (max-width: 599px) {
@@ -244,7 +277,7 @@ body {
 }
 
 @media (min-width: 1920px) {
-	.sign {
-		zoom: 2.0;
-	}
+  .sign {
+    zoom: 2.0;
+  }
 }
