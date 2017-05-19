@@ -141,8 +141,10 @@ body {
 	margin-top: 8px;
 }
 
-.sign-back {
-	display: none;
+.hidden {
+	visibility: hidden !important;
+	opacity: 0 !important;
+	transition: visibility 0s, opacity 0s linear !important;
 }
 
 /* entire container, keeps perspective */
@@ -211,6 +213,9 @@ body {
   position: fixed;
   bottom: 1em;
   right: 1em;
+	visibility: visible;
+  opacity: 1;
+  transition: visibility 0.5s, opacity 0.5s linear;
 }
 
 .mc-rainbow {
